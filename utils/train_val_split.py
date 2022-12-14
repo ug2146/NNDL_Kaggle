@@ -5,6 +5,9 @@ import pandas as pd
 
 
 def train_val_split():
+    '''
+    function to split the full dataset into training and validation datasets
+    '''
     full_imgs = np.array(os.listdir('../train_shuffle'))
     full_labels = pd.read_csv('../Released_Data/train_data.csv').to_numpy()
 
@@ -105,3 +108,4 @@ def train_val_split():
 
     # print("Minimum Sub Class ratio: ", min_val)
     # print("Maximum Sub Class ratio: ", max_val)
+    return train_data, val_data
