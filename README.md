@@ -1,19 +1,22 @@
 # NNDL_Kaggle
 This is the project for NNDL class competition assignment
 
-## EfficientNet-B6
+##Objective:
+The objective of this project is to train images in the given dataset and predict superclass and subclass of an image.
+One of the key aspects in this project is that, while testing the model, the model needs to predict unseen subclasses from the training data.
+
+##Dataset:
+The training dataset in the competition consists of 6.4K images of resolution 8x8x3 and spread over
+3 super classes and 89 sub classes. Similarly, the test dataset contains about 9.1K images belonging
+to the same 3 super classes, but some of them belong to sub classes not present in the training dataset.
+Also, there is an imbalance in the number of samples for each sub class(50 or 100) in the training
+dataset.
+
+###Approach:
+For this task
 
 
 
 
-## InceptionV3
 
-###  The leaderboard result
-#### Superclass
-![superclass_board](https://user-images.githubusercontent.com/90797792/207780270-eb7fc493-01ca-44a1-82a6-62c6fd5e5da1.png)
 
-#### Subclass
-![subclass_board](https://user-images.githubusercontent.com/90797792/207780296-8e352160-007d-476d-abc0-7f5bab4ea098.png)
-
-### Phase 3 has the highest val accuracy for both classes
-![inceptionV3_phase3_best](https://user-images.githubusercontent.com/90797792/207780495-fe9c8dd6-ba6d-4a63-bca9-a8a74438e728.png)
