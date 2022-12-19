@@ -12,6 +12,12 @@ to the same 3 super classes, but some of them belong to sub classes not present 
 Also, there is an imbalance in the number of samples for each sub class(50 or 100) in the training
 dataset.
 
+##Hierarchy
+This directory consists of following items, <br>
+1)Utils folder: Code for submitting predictions <br>
+2)Approach1.ipynb which contains code for implementation of Approach 1 discussed below <br>
+3)Approach2.ipynb which contains code for implementation of Approach 2 discussed below <br>
+
 ## Approach:
 For this task, we have used two approaches <br>
 1)Approach 1: An ensemble of CNN and Transformer <br>
