@@ -44,10 +44,10 @@ Steps followed <br>
 2) Flatenning an 8x8x3 image to 192 length array.
 3) Preparing the training and validation sets <br>
 4) Preparing a baseline model of a feed forward network<br>
-5) Training on sub class and hyper parameter tuning.
-6) Comparitive of analysis
-7) Predicting on test data.
-
+5) Training on sub class and hyper parameter tuning.<br>
+6) Comparitive of analysis<br>
+7) Predicting on test data.<br>
+![MLP ARC.png](https://github.com/ug2146/NNDL_Kaggle/blob/main/MLP%20ARC.png)
 
 
 
