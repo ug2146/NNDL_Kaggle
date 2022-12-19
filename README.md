@@ -33,9 +33,9 @@ Steps followed <br>
 6) Training on sub class <br>
 7) Training on both classes simulataneously using a common encoder <br>
 8) Training Swin T on Augemented dataset <br>
-9) Training Effnet B3 with and without using droput <br>
-10) Creating an ensemble of the 3 models [ Swin T, EffnetB3, EffnetB4] <br>
-11) Comparative analysis through tensorboard logging <br>
+9) Training Effnet B3 with and without using dropout <br>
+10) Creating an ensemble of the 3 models [Swin T, EffnetB3, EffnetB4] <br>
+11) Performance comparison through tensorboard logging <br>
 12) Predicting on test data with threshold for sub classes <br>
 
 Architecture:
