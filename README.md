@@ -26,6 +26,22 @@ Steps followed <br>
 5) Training on super class <br>
 6) Training on sub class <br>
 7) Training on both classes simulataneously using a common encoder <br>
+8) Training Swin T on Augemented dataset <br>
+9) Training Effnet B3 with and without using droputs <br>
+10) Creating an ensemble of the above 3 [ baseline, Swin T, EffnetB3]
+11) Comparitative analysis of models and methods
+12) Predicting on test data
+
+### Approach 2:
+Steps followed <br>
+1) Downloading the data <br>
+2) Flatenning an 8x8x3 image to 192 length array.
+3) Preparing the training and validation sets <br>
+4) Preparing a baseline model of a feed forward network<br>
+5) Training on sub class and hyper parameter tuning.
+6) Comparitive of analysis
+7) Predicting on test data.
+
 
 
 
