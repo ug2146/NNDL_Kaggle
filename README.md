@@ -26,17 +26,17 @@ For this task, we have used two approaches <br>
 ### Approach 1:
 Steps followed <br>
 1) Downloading the data <br>
-2) upscaling the images to (64,64) and (32,32) <br>
+2) upscaling the images to (64,64) <br>
 3) Preparing the training and validation sets <br>
 4) Preparing a baseline model <br>
 5) Training on super class <br>
 6) Training on sub class <br>
 7) Training on both classes simulataneously using a common encoder <br>
 8) Training Swin T on Augemented dataset <br>
-9) Training Effnet B3 with and without using droputs <br>
-10) Creating an ensemble of the above 3 [ Swin T, EffnetB3,EffnetB4]
-11) Comparitative analysis of models and methods
-12) Predicting on test data
+9) Training Effnet B3 with and without using droput <br>
+10) Creating an ensemble of the 3 models [ Swin T, EffnetB3, EffnetB4] <br>
+11) Comparative analysis through tensorboard logging <br>
+12) Predicting on test data with threshold for sub classes <br>
 
 Architecture:
 ![arc](https://github.com/ug2146/NNDL_Kaggle/blob/main/ensemble_architecture.png)
@@ -47,8 +47,8 @@ Steps followed <br>
 2) Flatenning an 8x8x3 image to 192 length array.
 3) Preparing the training and validation sets <br>
 4) Preparing a baseline model of a feed forward network<br>
-5) Training on sub class and hyper parameter tuning.<br>
-6) Comparitive of analysis<br>
+5) Training on sub class with combinations of hyper parameters.<br>
+6) Comparative analysis <br>
 7) Predicting on test data.<br>
 
 Architecture of best MLP we got:
