@@ -52,7 +52,7 @@ Steps followed <br>
 7) Predicting on test data.<br>
 
 Architecture of best MLP we got:
-![MLP ARC.png](https://github.com/ug2146/NNDL_Kaggle/blob/main/MLP_architecture.png)
+![MLP ARC.png](https://github.com/ug2146/NNDL_Kaggle/blob/main/mlp_architecture.png)
 
 
 
