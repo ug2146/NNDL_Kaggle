@@ -15,8 +15,8 @@ dataset.
 ## Hierarchy
 This directory consists of following items, <br>
 1)Utils folder: Code for submitting predictions <br>
-2)Approach1.ipynb which contains code for implementation of Approach 1 discussed below <br>
-3)Approach2.ipynb which contains code for implementation of Approach 2 discussed below <br>
+2)Approach_1_Transformer+Ensemble.ipynb which contains code for implementation of Approach 1 discussed below <br>
+3)Approach_2_First.ipynb and Approach_2_MLP.ipynb which contains code for implementation of Approach 2 discussed below <br>
 
 ## Approach:
 For this task, we have used two approaches <br>
@@ -34,7 +34,7 @@ Steps followed <br>
 7) Training on both classes simulataneously using a common encoder <br>
 8) Training Swin T on Augemented dataset <br>
 9) Training Effnet B3 with and without using droputs <br>
-10) Creating an ensemble of the above 3 [ baseline, Swin T, EffnetB3]
+10) Creating an ensemble of the above 3 [ Swin T, EffnetB3,EffnetB4]
 11) Comparitative analysis of models and methods
 12) Predicting on test data
 
