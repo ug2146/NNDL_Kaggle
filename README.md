@@ -47,6 +47,7 @@ Steps followed <br>
 5) Training on sub class and hyper parameter tuning.<br>
 6) Comparitive of analysis<br>
 7) Predicting on test data.<br>
+Architecture of best MLP we got:
 ![MLP ARC.png](https://github.com/ug2146/NNDL_Kaggle/blob/main/MLP%20ARC.png)
 
 
