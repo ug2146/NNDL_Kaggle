@@ -38,6 +38,9 @@ Steps followed <br>
 11) Comparitative analysis of models and methods
 12) Predicting on test data
 
+Architecture:
+![arc](https://github.com/ug2146/NNDL_Kaggle/blob/main/ensemble_architecture.png)
+
 ### Approach 2:
 Steps followed <br>
 1) Downloading the data <br>
@@ -47,6 +50,7 @@ Steps followed <br>
 5) Training on sub class and hyper parameter tuning.<br>
 6) Comparitive of analysis<br>
 7) Predicting on test data.<br>
+
 Architecture of best MLP we got:
 ![MLP ARC.png](https://github.com/ug2146/NNDL_Kaggle/blob/main/MLP%20ARC.png)
 
